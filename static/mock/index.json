@@ -1,0 +1,117 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+      "id": "0001",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/4642f3d4ca2aaaa3c7c522f9eb86fdc7.jpg_750x200_5a390d78.jpg"
+    },{
+      "id": "0002",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/c24c9a91c6d4267ab3b935e6de37feae.jpg_750x200_26a5b2db.jpg"
+    },{
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1802/51/e78f936a5b404102.jpg_640x200_c14f0b3a.jpg"
+    },{
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1712/91/a275569091681d02.jpg_640x200_0519ccb9.jpg"
+    }],
+    "iconList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "热门景点"
+    }, {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "desc": "一日游"
+    }, {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+      "desc": "文化古迹"
+    }, {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png",
+      "desc": "溜娃儿"
+    }, {
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+      "desc": "泡温泉"
+    }, {
+      "id": "0006",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/c1/6f15f887179fa002.png",
+      "desc": "夫子庙"
+    }, {
+      "id": "0007",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/fa/2548667cb6e902.png",
+      "desc": "总统府"
+    }, {
+      "id": "0008",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/97/02f5043b51b2102.png",
+      "desc": "牛首山"
+    }, {
+      "id": "0009",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+      "desc": "明孝陵"
+    }],
+    "recommendList": [{
+      "id": "0001",
+      "title": "大报恩寺遗址公园",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1512/95/9579bcb3e5a206cc90.water.jpg_200x200_aaa2ccea.jpg",
+      "point": "5.0",
+      "price": "40",
+      "comment": "15157"
+    }, {
+      "id": "0002",
+      "title": "秦淮灯会主会场（白鹭洲公园）",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1901/5a/5a10cf85846813f8a3.img.jpg_200x200_ce922862.jpg",
+      "point": "4.5",
+      "price": "45",
+      "comment": "25771"
+      }, {
+      "id": "0003",
+      "title": "南京汤山颐尚温泉",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/f4/f455d92ba582f608.water.jpg_200x200_375e5775.jpg",
+      "point": "5.0",
+      "price": "127",
+      "comment": "12588"
+      }, {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_140x140_1c863e5c.jpg",
+      "title": "水立方",
+      "point": "5.0",
+      "price": "127",
+      "comment": "15779"
+    }, {
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201308/23/b283071686e64dfec8d65eac.jpg_140x140_8c5a7c49.jpg",
+      "title": "温都水城养生馆",
+      "point": "5.0",
+      "price": "150",
+      "comment": "18988"
+    }],
+    "weekendList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+      "title": "北京温泉排行榜",
+      "desc": "细数北京温泉，温暖你的冬天"
+    }, {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
+      "title": "北京必游TOP10",
+      "desc": "来北京必去的景点非这些地方莫属"
+    }, {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+      "title": "寻找北京的皇城范儿",
+      "desc": "数百年的宫廷庙宇，至今依旧威严霸气"
+    }, {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/ce/bc89bc2f0e33ea.jpg_r_640x214_3e408453.jpg",
+      "title": "学生最爱的博物馆",
+      "desc": "周末干嘛？北京很多博物馆已经免费开放啦"
+    }, {
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/b2/fde1bfcd057a52.jpg_r_640x214_bbf3fa44.jpg",
+      "title": "儿童剧场，孩子的乐园",
+      "desc": "带宝贝观看演出，近距离体验艺术的无穷魅力"
+    }]
+  }
+}
