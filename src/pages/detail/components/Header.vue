@@ -57,6 +57,7 @@ export default {
   text-align: center
   color: #fff
 .header-fixed
+  z-index: 2
   position: fixed
   top: 0
   left: 0
