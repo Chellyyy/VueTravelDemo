@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="banner" @click="handleBannerClick">
-      <img class="banner-img" src="//img1.qunarzz.com/sight/p0/1512/95/9579bcb3e5a206cc90.water.jpg_600x330_d0807192.jpg" alt="">
+      <img class="banner-img" :src="img" alt="">
       <div class="banner-info">
         <div class="banner-number">
           <span class="iconfont">&#xe616;</span>
-          <span>6</span>
+          <span>{{galleryLength}}</span>
         </div>
-        <div class="banner-title">大报恩寺遗址公园</div>
+        <div class="banner-title">{{title}}</div>
       </div>
     </div>
     <common-gallery :imgs="imgs" v-show="showGallery" @close="handleGalleryClose"></common-gallery>
@@ -18,10 +18,14 @@
 import CommonGallery from 'common/gallery/Gallery'
 export default {
   name: 'DetailBanner',
+  props: {
+    img: String,
+    imgs: Array,
+    title: String
+  },
   data () {
     return {
-      showGallery: false,
-      imgs: ['http://img1.qunarzz.com/sight/p0/1512/95/9579bcb3e5a206cc90.water.jpg_r_800x800_21dd28bb.jpg', 'http://img1.qunarzz.com/sight/p0/1512/62/62b10f89694c850190.water.jpg_r_800x800_f22eaa3a.jpg']
+      showGallery: false
     }
   },
   components: {
@@ -33,6 +37,11 @@ export default {
     },
     handleGalleryClose () {
       this.showGallery = false
+    }
+  },
+  computed: {
+    galleryLength () {
+      return this.imgs.length
     }
   }
 }

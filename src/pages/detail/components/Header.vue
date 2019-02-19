@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div class="header-abs iconfont" v-show="absShow">&#xe624;</div>
+      <router-link tag="div" to="/" class="header-abs iconfont" v-show="absShow">&#xe624;</router-link>
       <div class="header-fixed" v-show="!absShow" :style="opacityStyle">
         detail
         <router-link to="/">
