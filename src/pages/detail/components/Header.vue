@@ -34,10 +34,18 @@ export default {
       }
     }
   },
+  mounted () {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
   activated () {
+    console.log('act')
     window.addEventListener('scroll', this.handleScroll)
   },
   deactivated () {
+    console.log('deact')
     window.removeEventListener('scroll', this.handleScroll)
   }
 }
